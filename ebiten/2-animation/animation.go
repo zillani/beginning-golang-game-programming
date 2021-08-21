@@ -2,12 +2,12 @@ package main
 
 import (
 	"bytes"
-	images2 "github.com/zillani/ebiten-course/basics/resources/images"
 	"image"
 	_ "image/png"
 	"log"
 
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
 )
 
 const (
@@ -48,7 +48,8 @@ func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {
 }
 
 func main() {
-	img, _, err := image.Decode(bytes.NewReader(images2.Runner_png))
+
+	img, _, err := image.Decode(bytes.NewReader(images.Runner_png))
 	if err != nil {
 		log.Fatal(err)
 	}

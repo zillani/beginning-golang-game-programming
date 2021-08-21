@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/zillani/beginning-golang-game-programming/space-invaders/lib/states"
 	_ "image/png"
 
 	"github.com/x-hgg-x/goecsengine/loader"
@@ -64,5 +63,5 @@ func main() {
 	ebiten.SetWindowSize(windowWidth, windowHeight)
 	ebiten.SetWindowTitle("Demo")
 
-	utils.LogError(ebiten.RunGame(&mainGame{world, s.Init(&states.MuteMenuState{}, world)}))
+	utils.LogError(ebiten.RunGame(&mainGame{world, s.Init(&GameplayState{}, world)}))
 }

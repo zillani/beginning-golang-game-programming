@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/zillani/beginning-golang-game-programming/ebiten/util"
 	"image/color"
 	"log"
@@ -38,10 +37,7 @@ func (b *Game) Update(screen *ebiten.Image) {
 }
 
 func (b *Game) Draw(screen *ebiten.Image) {
-	opts := &ebiten.DrawImageOptions{}
-	opts.GeoM.Translate(float64(b.X), float64(b.Y))
-	setBallPixels(b.Color, b.Img)
-	screen.DrawImage(b.Img, opts)
+
 }
 
 func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {
