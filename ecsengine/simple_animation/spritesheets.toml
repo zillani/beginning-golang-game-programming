@@ -1,0 +1,15 @@
+[sprite_sheet.balrog]
+texture_image = "spiderman-shoot.png"
+sprites = [
+    { x = 0, y = 0, width = 127, height = 94 }, # Sprite 0
+    { x = 127, y = 0, width = 127, height = 94 }, # Sprite 1
+    { x = 254, y = 0, width = 127, height = 94 }, # Sprite 2
+    { x = 381, y = 0, width = 127, height = 94 }, # Sprite 3
+    { x = 508, y = 0, width = 127, height = 94 }, # Sprite 4
+    { x = 635, y = 0, width = 127, height = 94 }, # Sprite 5
+]
+
+[sprite_sheet.balrog.animations.punch1]
+time = [0.0, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+sprite_number = [0, 1, 2, 3, 4, 5 ]
+

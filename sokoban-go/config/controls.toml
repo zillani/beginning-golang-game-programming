@@ -1,0 +1,129 @@
+[controls.actions.MoveUp]
+combinations = [[{ key = "Up" }]]
+once = true
+
+[controls.actions.MoveUpFast]
+combinations = [[{ key = "ShiftLeft" }, { key = "Up" }], [{ key = "ShiftRight" }, { key = "Up" }]]
+
+
+[controls.actions.MoveDown]
+combinations = [[{ key = "Down" }]]
+once = true
+
+[controls.actions.MoveDownFast]
+combinations = [
+    [
+        { key = "ShiftLeft" },
+        { key = "Down" },
+    ],
+    [
+        { key = "ShiftRight" },
+        { key = "Down" },
+    ],
+]
+
+
+[controls.actions.MoveLeft]
+combinations = [[{ key = "Left" }]]
+once = true
+
+[controls.actions.MoveLeftFast]
+combinations = [
+    [
+        { key = "ShiftLeft" },
+        { key = "Left" },
+    ],
+    [
+        { key = "ShiftRight" },
+        { key = "Left" },
+    ],
+]
+
+[controls.actions.MoveRight]
+combinations = [[{ key = "Right" }]]
+once = true
+
+[controls.actions.MoveRightFast]
+combinations = [
+    [
+        { key = "ShiftLeft" },
+        { key = "Right" },
+    ],
+    [
+        { key = "ShiftRight" },
+        { key = "Right" },
+    ],
+]
+
+
+[controls.actions.PreviousLevel]
+combinations = [[{ key = "Z" }]]
+once = true
+
+[controls.actions.PreviousLevelFast]
+combinations = [[{ key = "ShiftLeft" }, { key = "Z" }], [{ key = "ShiftRight" }, { key = "Z" }]]
+
+
+[controls.actions.NextLevel]
+combinations = [[{ key = "X" }]]
+once = true
+
+[controls.actions.NextLevelFast]
+combinations = [[{ key = "ShiftLeft" }, { key = "X" }], [{ key = "ShiftRight" }, { key = "X" }]]
+
+
+[controls.actions.Undo]
+combinations = [[{ key = "U" }]]
+once = true
+
+[controls.actions.UndoFast]
+combinations = [[{ key = "ShiftLeft" }, { key = "U" }], [{ key = "ShiftRight" }, { key = "U" }]]
+
+
+[controls.actions.Restart]
+combinations = [[{ key = "R" }]]
+once = true
+
+
+[controls.actions.Save]
+combinations = [[{ key = "S" }]]
+once = true
+
+
+# Usage
+
+# Axes
+
+# With keyboard keys
+# [controls.axes.XXX]
+# emulated.neg.key = "Left"
+# emulated.pos.key = "Right"
+
+# With mouse buttons
+# [controls.axes.XXX]
+# emulated.neg.mouse_button = "MouseButtonLeft"
+# emulated.pos.mouse_button = "MouseButtonRight"
+
+# With gamepad buttons
+# [controls.axes.XXX.emulated]
+# emulated.neg.controller = { id = 0, button = "GamepadButton14" }
+# emulated.pos.controller = { id = 0, button = "GamepadButton15" }
+
+# With gamepad axis
+# [controls.axes.XXX]
+# controller_axis = { id = 0, axis = 0, invert = false, dead_zone = 0.2 }
+
+# With mouse axis
+# [controls.axes.XXX]
+# mouse_axis.axis = 0
+
+
+# Actions
+
+# [controls.actions.XXX]
+# combinations = [
+#     [{ key = "Control" }, { key = "Q" }],
+#     [{ key = "Escape" }],
+#     [{ controller = { id = 0, button = "GamepadButton9" } }],
+# ]
+# once = true

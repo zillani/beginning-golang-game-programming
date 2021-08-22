@@ -1,0 +1,23 @@
+[[entity]]
+
+    [entity.components.SpriteRender]
+    fill = { width = 600, height = 600, color = [255, 255, 255, 255] }
+
+    [entity.components.Transform]
+    translation = { x = 300.0, y = 300.0 }
+    depth = -1.0
+
+
+[[entity]]
+
+    [entity.components.SpriteRender]
+    sprite_sheet_name = "balrog"
+    sprite_number = 0
+
+    [entity.components.Transform]
+    translation = { x = 300.0, y = 300.0 }
+
+    [entity.components.AnimationControl]
+    sprite_sheet_name = "balrog"
+    animation_name = "punch1"
+    end.type = "Loop"
