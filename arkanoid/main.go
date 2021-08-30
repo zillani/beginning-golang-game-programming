@@ -4,9 +4,9 @@ import (
 	_ "image/png"
 
 	gr "github.com/x-hgg-x/arkanoid-go/lib/resources"
-	gc "github.com/zillani/ebiten-course/arkanoid/lib/components"
-	gloader "github.com/zillani/ebiten-course/arkanoid/lib/loader"
-	gs "github.com/zillani/ebiten-course/arkanoid/lib/states"
+	gc "github.com/zillani/beginning-golang-game-programming/arkanoid/lib/components"
+	gloader "github.com/zillani/beginning-golang-game-programming/arkanoid/lib/loader"
+	gs "github.com/zillani/beginning-golang-game-programming/arkanoid/lib/states"
 
 	"github.com/x-hgg-x/goecsengine/loader"
 	er "github.com/x-hgg-x/goecsengine/resources"

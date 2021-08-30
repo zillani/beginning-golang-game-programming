@@ -1,23 +1,23 @@
 [[entity]]
 
     [entity.components.SpriteRender]
-    fill = { width = 600, height = 600, color = [255, 255, 255, 255] }
+    fill = { width = 320, height = 240, color = [00, 00, 00, 255] } #RGBA format
 
     [entity.components.Transform]
-    translation = { x = 300.0, y = 300.0 }
+    translation = { x = 320.0, y = 240.0 }
     depth = -1.0
 
 
 [[entity]]
 
     [entity.components.SpriteRender]
-    sprite_sheet_name = "balrog"
+    sprite_sheet_name = "bat"
     sprite_number = 0
 
     [entity.components.Transform]
-    translation = { x = 300.0, y = 300.0 }
+    translation = { x = 320.0, y = 240.0 }
 
     [entity.components.AnimationControl]
-    sprite_sheet_name = "balrog"
-    animation_name = "punch1"
+    sprite_sheet_name = "bat"
+    animation_name = "fly"
     end.type = "Loop"

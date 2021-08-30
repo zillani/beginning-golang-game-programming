@@ -4,3 +4,4 @@
 .vscode
 vendor
 go.sum
+*/*.exe
